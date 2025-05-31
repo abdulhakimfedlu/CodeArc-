@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
 
           
-          {/* Quick Links just like the navbars*/}
+          {/* Quick Links just like the navbar*/}
           <div>
             <h3 className="text-lg font-semibold text-white mb-4 reveal">Quick Links</h3>
             <ul className="space-y-2">
@@ -33,7 +33,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Social medias Links */}
+          {/* Social media Links */}
           <div>
             <h3 className="text-lg font-semibold text-white mb-4 reveal">Connect With Us</h3>
             <div className="flex space-x-4">

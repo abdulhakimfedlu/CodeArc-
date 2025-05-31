@@ -22,7 +22,7 @@ const Home = () => {
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-cyan-400 to-pink-500 text-white px-8 py-4 rounded-full hover:shadow-lg hover:shadow-cyan-400/20 text-lg font-medium transition duration-300 transform hover:scale-105"
             >
-              Join Telegram 
+              Join Us on Telegram 
             </a>
           </div>
         </div>

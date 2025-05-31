@@ -1,1 +1,68 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles that are not in App.jsx */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Moving Light Ring Animation with Pulsating Glow */
+@keyframes lightRing {
+  0% {
+    background: linear-gradient(90deg, rgba(6, 182, 212, 0.5), rgba(147, 51, 234, 0.5));
+    transform: rotate(0deg);
+    box-shadow: 0 0 10px rgba(6, 182, 212, 0.3), 0 0 20px rgba(147, 51, 234, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(6, 182, 212, 0.5), 0 0 30px rgba(147, 51, 234, 0.5);
+  }
+  100% {
+    background: linear-gradient(90deg, rgba(6, 182, 212, 0.5), rgba(147, 51, 234, 0.5));
+    transform: rotate(360deg);
+    box-shadow: 0 0 10px rgba(6, 182, 212, 0.3), 0 0 20px rgba(147, 51, 234, 0.3);
+  }
+}
+.animate-light-ring {
+  animation: lightRing 6s linear infinite;
+}
+
+/* Team Card Hover Animation */
+.team-card:hover {
+  transform: translateY(-12px);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+/* Pulsating Logo Animation */
+@keyframes pulseLogo {
+  0% {
+    box-shadow: 0 0 5px rgba(6, 182, 212, 0.3), 0 0 10px rgba(147, 51, 234, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(6, 182, 212, 0.5), 0 0 20px rgba(147, 51, 234, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(6, 182, 212, 0.3), 0 0 10px rgba(147, 51, 234, 0.3);
+  }
+}
+.animate-pulse-logo {
+  animation: pulseLogo 3s ease-in-out infinite;
+}
+
+/* Ensure responsiveness */
+@media (max-width: 640px) {
+  .grid-cols-1\.md\:grid-cols-2\.lg\:grid-cols-4 {
+    grid-template-columns: 1fr;
+  }
+  .w-40\.h-40 {
+    width: 30vw;
+    height: 30vw;
+  }
+}

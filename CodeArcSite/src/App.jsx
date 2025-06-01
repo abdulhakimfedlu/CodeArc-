@@ -14,6 +14,7 @@ function App() {
     return savedMode ? JSON.parse(savedMode) : window.matchMedia('(prefers-color-scheme: dark)').matches;
   });
 
+  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {

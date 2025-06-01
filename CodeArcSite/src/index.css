@@ -1,9 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 /* Custom styles that are not in App.jsx */
-
 .reveal {
   opacity: 0;
   transform: translateY(20px);

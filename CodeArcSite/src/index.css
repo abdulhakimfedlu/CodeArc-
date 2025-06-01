@@ -41,7 +41,6 @@
   transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
 
-
 /* Pulsating Logo Animation */
 @keyframes pulseLogo {
   0% {
@@ -57,7 +56,6 @@
 .animate-pulse-logo {
   animation: pulseLogo 3s ease-in-out infinite;
 }
-
 
 /* Ensure responsiveness */
 @media (max-width: 640px) {

@@ -16,6 +16,8 @@ function App() {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+
+  
   useEffect(() => {
     localStorage.setItem('darkMode', JSON.stringify(isDarkMode));
     document.documentElement.classList.toggle('dark', isDarkMode);

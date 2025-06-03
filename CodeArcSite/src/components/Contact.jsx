@@ -12,6 +12,7 @@ const Contact = () => {
             Have questions? We'd love to hear from you.
           </p>
         </div>
+        
         <form className="space-y-8 bg-gray-900/50 p-8 rounded-2xl shadow-2xl border border-gray-800 backdrop-blur-sm reveal">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="space-y-2">

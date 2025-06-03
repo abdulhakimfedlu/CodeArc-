@@ -12,7 +12,6 @@ function App() {
     const savedMode = localStorage.getItem('darkMode');
     return savedMode ? JSON.parse(savedMode) : window.matchMedia('(prefers-color-scheme: dark)').matches;
   });
-
   
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

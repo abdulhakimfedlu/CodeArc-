@@ -9,7 +9,6 @@ const Contact = () => {
             Get in Touch
           </h2>
           <p className="mt-4 text-xl text-gray-400 reveal">
-            
             Have questions? We'd love to hear from you.
           </p>
         </div>

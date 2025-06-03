@@ -10,6 +10,7 @@ const Contact = () => {
           </h2>
           <p className="mt-4 text-xl text-gray-400 reveal">
             Have questions? We'd love to hear from you.
+            
           </p>
         </div>
         <form className="space-y-8 bg-gray-900/50 p-8 rounded-2xl shadow-2xl border border-gray-800 backdrop-blur-sm reveal">

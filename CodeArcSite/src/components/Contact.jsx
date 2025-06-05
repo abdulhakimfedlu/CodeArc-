@@ -1,5 +1,4 @@
 import React from 'react';
-
 const Contact = () => {
   return (
     <section id="contact" className="py-24 px-6 bg-black">

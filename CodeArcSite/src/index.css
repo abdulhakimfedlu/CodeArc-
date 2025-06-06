@@ -8,6 +8,7 @@
   transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
+
 .revealed {
   opacity: 1;
   transform: translateY(0);

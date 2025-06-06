@@ -12,7 +12,7 @@ const Footer = () => {
               Empowering the next generation of developers through collaborative learning and real-world projects.
             </p>
           </div>
-          
+        
           {/* Quick Links just like the navbar*/}
           <div>
             <h3 className="text-lg font-semibold text-white mb-4 reveal">Quick Links</h3>

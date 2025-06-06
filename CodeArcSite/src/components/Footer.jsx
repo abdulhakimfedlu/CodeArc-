@@ -12,7 +12,6 @@ const Footer = () => {
               Empowering the next generation of developers through collaborative learning and real-world projects.
             </p>
           </div>
-
           
           {/* Quick Links just like the navbar*/}
           <div>

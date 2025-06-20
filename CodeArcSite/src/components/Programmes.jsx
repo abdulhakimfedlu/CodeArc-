@@ -9,7 +9,7 @@ const Programmes = () => {
             What We Offer
           </h2>
         </div>
-    
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Front-End */}
           <div className="group bg-gray-900 p-8 rounded-xl shadow-lg border border-gray-800 flex flex-col items-start hover:shadow-2xl hover:shadow-cyan-400/20 hover:-translate-y-2 transition-all duration-300 reveal">

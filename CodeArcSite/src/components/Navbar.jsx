@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Navbar = ({ isDarkMode, setDarkMode, isMenuOpen, setIsMenuOpen }) => {

@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Navbar = ({ isDarkMode, setDarkMode, isMenuOpen, setIsMenuOpen }) => {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-black/70 backdrop-blur-md border-b border-gray-800">

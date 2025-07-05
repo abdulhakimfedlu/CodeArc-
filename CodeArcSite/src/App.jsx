@@ -14,7 +14,6 @@ import Footer from './components/Footer';
 
 
 
-
 function App() {
   const [isDarkMode, setDarkMode] = useState(() => {
     const savedMode = localStorage.getItem('darkMode');

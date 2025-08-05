@@ -6,7 +6,6 @@ import Team from './components/Team';
 import Programmes from './components/Programmes';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-
 function App() {
   const [isDarkMode, setDarkMode] = useState(() => {
     const savedMode = localStorage.getItem('darkMode');

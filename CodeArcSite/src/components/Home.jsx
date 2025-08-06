@@ -1,8 +1,6 @@
 import React from 'react';
 
 
-\
-
 const Home = () => {
   return (
     <section className="min-h-screen flex items-center justify-center pt-32 px-6 bg-gradient-to-b from-black to-gray-900">
